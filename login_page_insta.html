@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c0bfbf;
+        }
+        
+        .container {
+            width: 350px;
+            height: 475px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo img {
+            width: 150px;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            height: 30px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        button, .fb-login {
+            width: 100%;
+            height: 40px;
+            background-color: #58ffff;
+            color: #fa0404;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover, .fb-login:hover {
+            background-color: #ffffff;
+        }
+        
+        p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #f60000;
+        }
+        
+        a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="Instagram_logo.svg.png" alt="Instagram Logo">
+        </div>
+        <form>
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button>Login</button>
+        </form>
+        <p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></p>
+        <p>Forgot password? <a href="https://www.instagram.com/accounts/password/reset/">Reset password</a></p>
+        <p><center>OR</center></p>
+        <p class="fb-login"><a href="https://www.facebook.com/login/">Log in with Facebook</a></p>
+    </div>
+</body>
+</html>
+
+
